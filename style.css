@@ -1,0 +1,28 @@
+h1 , p {
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.gallery img{
+    width: 100px;
+    cursor: pointer;
+}
+/* new code  */
+.active{
+    border: 2px solid red;
+    /* new code  */
+    transition-property: border;
+    transition-delay: 0.5s;
+}
+
+#mainImage{
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+}
